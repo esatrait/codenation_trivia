@@ -3,7 +3,7 @@ import React from "react";
 function NextQuestion() {
   return (
     <div>
-      <button>Next Question</button>
+      <button>Click for correct answer</button>
     </div>
   );
 }

@@ -17,6 +17,11 @@ function App() {
       <Question
         text={data[currentQuestion].question.text}
         choices={data[currentQuestion].question.choices}
+        correct_choice_index={
+          data[currentQuestion].question.choices[
+            data[currentQuestion].question.correct_choice_index
+          ]
+        }
       />
       <NextQuestion />
     </div>

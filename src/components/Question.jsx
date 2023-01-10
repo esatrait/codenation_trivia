@@ -1,4 +1,5 @@
 import React from "react";
+import Answer from "./Answer";
 
 function Question(props) {
   return (
@@ -10,6 +11,7 @@ function Question(props) {
         <li>{props.choices[2]}</li>
         <li>{props.choices[3]}</li>
       </ul>
+      <Answer text={props.correct_choice_index} />
     </div>
   );
 }
